@@ -1,0 +1,7 @@
+{
+  "name": "prjQuiz_Musica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,289 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Ranking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Ranking</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  
+
+  <ion-grid>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label>
+            <strong>Nomes</strong>
+          </ion-label>
+        </ion-item>
+
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          <strong> Pontos </strong>
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            <b>1º:</b> {{Jogadores[0].nome}}
+          </ion-label>
+        </ion-item>
+
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[0].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            <b>2º:</b> {{Jogadores[1].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[1].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            <b>3º:</b> {{Jogadores[2].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[2].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+            <b>4º:</b> {{Jogadores[3].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[3].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+          <b>5º:</b> {{Jogadores[4].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[4].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+          <b>6º:</b> {{Jogadores[5].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[5].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+          <b>7º:</b> {{Jogadores[6].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[6].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+          <b>8º:</b> {{Jogadores[7].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[7].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+          <b>9º:</b> {{Jogadores[8].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[8].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row>    
+
+      <ion-col size="8">
+
+        <ion-item>
+          <ion-label class="ion-text-wrap">
+          <b>10º:</b> {{Jogadores[9].nome}}
+          </ion-label>
+        </ion-item>
+        
+      </ion-col>
+
+      <ion-col>
+
+        <ion-item>
+        <ion-label>
+          {{Jogadores[9].pontuacao}}/10
+        </ion-label>
+      </ion-item>
+
+      </ion-col>
+
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-button  color="tertiary" icon="home" href="/home"> 
+    <ion-icon name="home" aria-hidden="true"></ion-icon>
+    <p> Tela Inicial</p> 
+  </ion-button>
+
+</ion-content>

@@ -1,0 +1,52 @@
+<ion-header  [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title >5ª Pergunta </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+      
+    <h1 size="large" class="titulo">Qual é a música?</h1>
+    
+    
+    <img src="../../assets/FramesPerguntas/Frame (5).png">
+    
+    <ion-radio-group [(ngModel)]="alternativas" value="primary">
+
+      <ion-item>
+      <ion-radio color="primary">
+          <strong class="textoPerguntas">Fetish</strong>
+        </ion-radio>
+      </ion-item>
+
+      <ion-item>
+      <ion-radio value="correto" color="primary">
+          <strong class="textoPerguntas">Why'd You Only Call Me When You're High?</strong>
+        </ion-radio>
+      </ion-item>
+
+      <ion-item>
+      <ion-radio  color="primary">
+          <strong class="textoPerguntas">Alarm</strong>
+        </ion-radio>
+      </ion-item>
+
+
+    </ion-radio-group>
+
+    <br>
+
+    <ion-button  (click)="ExibirMensagem()" icon="arrow-forward-outline">
+      <ion-icon slot="start" name="arrow-forward-outline"></ion-icon>
+      <p>Próxima</p>
+    </ion-button>
+
+    <br> 
+    
+    <br>
+
+    <ion-button icon="home" (click)="Confirmar_Saida()"> 
+      <ion-icon slot="start" name="home" aria-hidden="true"></ion-icon>
+      <p> Tela Inicial</p> 
+    </ion-button>
+</ion-content>

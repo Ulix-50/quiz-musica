@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true" class="Background">
+  
+
+  <div id="container">
+    <h1 id="Titulo">Quiz de Música</h1>    
+
+    <br>
+
+    <ion-button color="dark" (click)="exibirAlertComInput_Nome()">
+      <ion-icon slot="start" name="play"></ion-icon>
+       Jogar 
+      </ion-button>
+
+      <br>
+
+     <ion-button color="dark" href="/ranking"> 
+        
+        <ion-icon slot="start" name="trophy"></ion-icon>
+        Ranking
+
+      </ion-button>
+
+      <br>
+
+      <ion-button  (click)="exibirCreditos()" color="dark"> 
+        <ion-icon slot="start" name="people"></ion-icon>
+        Créditos
+      </ion-button>
+
+      <br>
+
+      <ion-button  (click)="exibirTutorial()" color="dark"> 
+        <ion-icon slot="start" name="warning"></ion-icon>
+        Como Jogar?
+      </ion-button>
+
+  </div>
+</ion-content>

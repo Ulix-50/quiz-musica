@@ -1,0 +1,52 @@
+<ion-header  [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title >4ª Pergunta </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+      
+    <h1 size="large" class="titulo">Qual é a música?</h1>
+    
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0c0sNU9EcHCILYsMzwnKAu6Zdqv8qDOLtAeC4axwT5oXwNodaKFciD5V7uro543G9oB8&usqp=CAU">
+    
+    <ion-radio-group [(ngModel)]="alternativas" value="primary">
+
+      <ion-item>
+      <ion-radio value="correto" color="primary">
+          <strong class="textoPerguntas">Black Swan</strong>
+        </ion-radio>
+      </ion-item>
+
+      <ion-item>
+      <ion-radio color="primary">
+          <strong class="textoPerguntas">Take You Dancing</strong>
+        </ion-radio>
+      </ion-item>
+
+      <ion-item>
+      <ion-radio  color="primary">
+          <strong class="textoPerguntas">Up</strong>
+        </ion-radio>
+      </ion-item>
+
+
+    </ion-radio-group>
+
+    <br>
+
+    <ion-button  (click)="ExibirMensagem()" icon="arrow-forward-outline">
+      <ion-icon slot="start" name="arrow-forward-outline"></ion-icon>
+      <p>Próxima</p>
+    </ion-button>
+
+    <br> 
+    
+    <br>
+
+    <ion-button icon="home" (click)="Confirmar_Saida()"> 
+      <ion-icon slot="start" name="home" aria-hidden="true"></ion-icon>
+      <p> Tela Inicial</p> 
+    </ion-button>
+</ion-content>

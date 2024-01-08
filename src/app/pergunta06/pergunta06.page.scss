@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&display=swap');
+
+
+ion-title, h1
+{
+    text-align: center;
+}
+
+ion-content
+{
+    --background: #bbb4dc;
+    text-align: center;
+}
+
+ 
+.botao
+{
+    height: 30px;
+    width: 70px;
+    border: 1.5px solid #000;
+    text-decoration: none;
+    background: cyan;    
+}
+
+.caixa
+{
+    width: 70%;
+    height: 50px;       
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    transition: 0.5s; 
+}
+
+.azul
+{
+    border: 3px solid hsl(214, 60%, 35%);
+    background: hsl(214, 60%, 53%);
+}
+
+.verde
+{
+    border: 3px solid #6B434D;
+    background: #ac6d7c;
+}
+
+.preto
+{
+    border: 3px solid black;
+    background: hsl(0, 0%, 5%);
+}
+
+.pink
+{
+    border: 3px solid hsl(330, 100%, 35%);
+    background: rgb(248, 0, 124);
+}
+
+ion-item
+{
+    --background: #bbb4dc;
+}
+
+.titulo
+{
+    font-family: 'Playfair Display', serif;
+}
+.textoPerguntas
+{
+    font-family: 'Playfair Display', serif;
+}
+
+ion-button {
+    --background: #4E4B5C;
+    --background-hover: #a6dae6;
+    --background-activated: #a6dae6;
+    --background-focused: #a6dae6;
+  
+    --color: #C5BEE8;
+
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+  }
