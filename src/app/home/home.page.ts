@@ -64,7 +64,7 @@ export class HomePage {
     const alert = await this.gerenciadorAlerta.create({
       header: '👥Créditos:',
       subHeader: 'Maravilhosamente feito por:',
-      message: 'Maria Luiza (36360) e Ulisses Cardoso (36347)',
+      message: 'Maria Luiza e Ulisses Cardoso',
       buttons: [
         {
           text: 'Fechar',
